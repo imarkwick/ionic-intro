@@ -1,1 +1,62 @@
-/* Empty. Add your own CSS if you like */
+/*#artist-info {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #FF523F;
+  letter-spacing: .2rem;
+  text-shadow:#ffffff 1px 1px 7px;
+}
+
+.infoButton {
+  height: 2rem;
+  float: right;
+  margin-right: 2rem;
+}
+
+p#instructions {
+  margin-top: 4rem;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2.5rem;
+  color: #0CBABA;
+}
+
+#cover { 
+  position:fixed;
+  top:0;
+  left:0;
+  background:rgba(0,0,0,0.75);
+  z-index:5; 
+  width:100%; 
+  height:100%; 
+  color: black;
+  display:none; 
+}
+
+#m1, #m2, #i, #m3 {
+  color: #00304C;
+}
+
+#e, #t, #x {
+  color: #004266;
+}
+
+#r1, #r3, #a2 {
+  color: #C5DECD;
+}
+
+#y, #a , #c, #s3 {
+  color: #00B9AE;
+}
+
+#h, #s1, #s2, #r2 {
+  color : 037171;
+}
+
+.playing {
+  text-shadow: #FDFFFC 0 0 60px, #41EAD4 5px 5px 20px;
+  filter: glow(color=#EEEE00,strength=3);
+}
+
+
+
+*/

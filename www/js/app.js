@@ -7,6 +7,15 @@ angular.module('starter', ['ionic'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
+
+    document.addEventListener("deviceready", function () {
+      if (window.cordova && window.cordova.plugins) {
+        console.log('window.cordova.plugins is available');
+      } else {
+        console.log('window.cordova.plugins NOT available');
+      }
+    }, false);
+
     if(window.cordova && window.cordova.plugins.Keyboard) {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
       // for form inputs)
@@ -17,10 +26,16 @@ angular.module('starter', ['ionic'])
       // a much nicer keyboard experience.
       cordova.plugins.Keyboard.disableScroll(true);
     }
+
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
 
-    
+    var button = document.getElementById('button');
+
+    var buttonTest = function() {
+      console.log('HERE is a console log *****')
+      button.className = d.className + " playing";
+    };
   });
 })
